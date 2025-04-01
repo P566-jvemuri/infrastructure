@@ -1,13 +1,15 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-terraform
-# Ignore Terraform provider binaries
+
+# Ignore Terraform binary files
 .terraform/
 
 # Ignore Terraform cache and state files
@@ -19,4 +21,3 @@ terraform
 
 # Ignore Terraform plan files
 *.tfplan
-
