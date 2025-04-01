@@ -7,3 +7,16 @@
 /dataSources/
 /dataSources.local.xml
 terraform
+# Ignore Terraform provider binaries
+.terraform/
+
+# Ignore Terraform cache and state files
+*.tfstate
+*.tfstate.*
+
+# Ignore backup files created by Terraform
+*.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
